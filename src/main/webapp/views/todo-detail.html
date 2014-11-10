@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Todo detail</h1>
+
+  <form novalidate="novalidate" class="form-horizontal">
+    <div class="control-group">
+      <label class="control-label" for="label">todo:</label>
+
+      <div class="controls">
+        <input type="text" id="label" ng-model="todo.label"/>
+      </div>
+    </div>
+  
+    <div class="control-group">
+      <div class="controls">
+        <a ng-click="cancel()" class="btn btn-small">cancel</a>
+        <a ng-click="updateTodo()" class="btn btn-small btn-primary">update todo</a>
+      </div>
+    </div>
+  </form>
+</div>
